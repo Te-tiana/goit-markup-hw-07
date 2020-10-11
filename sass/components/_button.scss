@@ -54,5 +54,9 @@
 }
 }
 
-
+.button__footer:hover,
+.button__footer:focus {
+	transform: scale(1.1);
+	outline: none;
+}
 
