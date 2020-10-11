@@ -9,20 +9,22 @@
 	border-radius: 4px;
 
 	transition: border-color $transition-duration $transition-timing-function;
+	
+	&:hover,
+	&:focus {
+	border-color: $accent-color;
+}
+
 }
 
 .client__icon {
 	fill: $social-list-color;
 
 	transition: fill $transition-duration $transition-timing-function;
-}
 
-.client__logo:hover,
-.client__logo:focus {
-	border-color: $accent-color;
-}
-
-.client__logo:hover .icon,
-.client__logo:focus .icon {
+	.client__logo:hover &,
+	.client__logo:focus & {
 	fill: $accent-color;
 }
+}
+

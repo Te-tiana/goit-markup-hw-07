@@ -1,10 +1,9 @@
 .body {
 	color: $primary-text-color;
 	background-color: $primary-white-color;
-
 }
 
-.image {
+img {
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -29,7 +28,7 @@
 	overflow: hidden;
 }
 
-/* ul */
+// ul
 .list,
 .list.clients {
 	list-style: none;
@@ -37,7 +36,7 @@
 	margin: 0;
 }
 
-/* a */
+// a
 .logo,
 .link,
 .social__link,
@@ -53,7 +52,7 @@
 }
 
 .title {
-	font-weight: 700;
+	font-weight: $bold-fw;
 
 	color: $title-text-color;
 
@@ -76,14 +75,14 @@
 	padding-top: 32px;
 	padding-bottom: 32px;
 
-	font-weight: 500;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
+	font-weight: $mid-fw;
+	line-height: $cont-lh;
+	letter-spacing: $cont-lsp;
 }
 
 .section__title {
 	font-size: 36px;
-	line-height: 1.17;
+	line-height: $main-lh;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -124,16 +123,3 @@
 .list--just-btw {
 	justify-content: space-between;
 }
-
-//  font-family { 
-// 	Roboto, sans-serif;
-//  }
-	
-// font-size {
-// 	14px;}
-// font-weight {
-// 	400;}
-// line-height {
-// 	1.7;}
-// letter-spacing {
-// 	0.03em;}

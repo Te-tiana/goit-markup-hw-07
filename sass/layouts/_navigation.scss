@@ -4,14 +4,12 @@
 	color: $title-text-color;
 
 	transition: color $transition-duration $transition-timing-function;
-}
 
-.site-nav__link--current,
-.site-nav__link:focus,
-.site-nav__link:hover,
-.contact__link:hover,
-.contact__link:focus {
+	&--current,
+	&:focus,
+	&:hover {
 	color: $accent-color;
+}
 }
 
 .contact__link {
@@ -21,10 +19,14 @@
 	align-items: center;
 
 	transition: color $transition-duration $transition-timing-function;
-}
 
-.contact__link + .contact__link {
+	&:hover,
+	&:focus {
+	color: $accent-color;
+
+	& + & {
 	margin-left: 50px;
+}
 }
 
 .site-nav__link--current::after {
@@ -54,4 +56,3 @@
 .contact {
 	margin-left: auto;
 }
-

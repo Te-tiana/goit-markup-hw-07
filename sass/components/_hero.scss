@@ -15,10 +15,10 @@
 }
 
 .hero__title {
-	font-weight: 900;
+	font-weight: $hero-fw;
 	font-size: 44px;
-	line-height: 1.36;
-	letter-spacing: 0.06em;
+	line-height: $hero-lh;
+	letter-spacing: $hero-lsp;
 	text-transform: uppercase;
 
 	margin-top: 0;
